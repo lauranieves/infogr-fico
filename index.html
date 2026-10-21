@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática: CSS Anchor Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <span class="badge">CSS Anchor Positioning • Imagem IA (16:9) com 5 Elementos</span>
+    <h1>Tema: Linha de Produção Automatizada 4.0</h1>
+    <p>Aluno(a): Laura Nieves • Chamada: Aluno Nº 13</p>
+  </header>
+
+  <main class="container-infografico">
+    <div class="cenario-imagem">
+      <!-- 1 Única Imagem Widescreen (16:9) Gerada na IA -->
+      <img id="foto-cenario" src="./img/linha de montagem.png" alt="Cenário Temático Widescreen 16:9">
+
+      <!-- PONTO 1: Superior Esquerdo -->
+      <button type="button" id="ponto-1" class="pin-hotspot pin-top-left" popovertarget="card-1">1</button>
+      <div id="card-1" class="card-ancorado" popover>
+        <h3>1. [Braço Robótico Soldador]</h3>
+        <p>realiza soldagens automatizadas com precisão, rapidez e segurança, unindo peças metálicas.</p>
+      </div>
+
+      <!-- PONTO 2: Superior Direito -->
+      <button type="button" id="ponto-2" class="pin-hotspot pin-top-right" popovertarget="card-2">2</button>
+      <div id="card-2" class="card-ancorado" popover>
+        <h3>2. [Scanner Óptico 3D]</h3>
+        <p>utiliza sensores ópticos e luz para escanear peças, identificar dimensões e detectar defeitos com precisão.</p>
+      </div>
+
+      <!-- PONTO 3: Centro -->
+      <button type="button" id="ponto-3" class="pin-hotspot pin-center" popovertarget="card-3">3</button>
+      <div id="card-3" class="card-ancorado" popover>
+        <h3>3. [Esteira Seletora]</h3>
+        <p>transporta produtos pela linha de produção e direciona cada item para o destino correto de forma automatizada</p>
+      </div>
+
+      <!-- PONTO 4: Inferior Esquerdo -->
+      <button type="button" id="ponto-4" class="pin-hotspot pin-bottom-left" popovertarget="card-4">4</button>
+      <div id="card-4" class="card-ancorado" popover>
+        <h3>4. [Painel de Controle CLP]</h3>
+        <p>monitora e controla as máquinas da linha de produção, automatizando processos por meio de comandos programados.</p>
+      </div>
+
+      <!-- PONTO 5: Inferior Direito -->
+      <button type="button" id="ponto-5" class="pin-hotspot pin-bottom-right" popovertarget="card-5">5</button>
+      <div id="card-5" class="card-ancorado" popover>
+        <h3>5. [Robô Móvel AGV]</h3>
+        <p>transporta materiais e produtos pela fábrica de forma autônoma, utilizando sensores para desviar de obstáculos e seguir rotas programadas.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Material Pedagógico • Prof. Esp. Leandro Gaudio Rosa • Entrega no GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
